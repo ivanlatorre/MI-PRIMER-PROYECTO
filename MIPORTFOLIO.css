@@ -1,0 +1,194 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Nunito, sans-serif;
+}
+
+
+body {
+    background-color:aqua;
+}
+
+
+.main-content{
+    min-height: 100vh;
+    /*width: 20%;*/
+    margin: 4rem ;
+    background-color: rosybrown;
+    grid-template-columns: repeat(7,1fr);
+    align-items:lef;
+    float: left;
+
+}
+
+
+.left-section{
+    grid-column: span 2;;
+    height: 100%;
+    
+} 
+
+.left-content{
+    padding: 1rem   3rem;
+
+
+}
+.profile{
+    width: 100%;
+    border-bottom: 3px solid #f7f7f7;
+}
+
+.profile img{    
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #f7f7f7;    /* borde redondo a mi foto*/
+    
+}
+
+.name {
+    font-size:large ;         /* le da forma a mi nombre*/
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem;
+}
+.main-title{
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7;
+    padding-top: 3rem;      /* separacion entre textos*/
+}
+
+.Title{
+    font-size: medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f7f7f7;                             
+    padding-top: 3rem;   
+    
+    
+    letter-spacing: 1px
+ } 
+ 
+
+.contact-info ul{
+ padding-top: 2rem   ;   
+
+}
+
+.contact-info ul li{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    color: #718096;
+}
+
+
+
+.Lenguajes ul li{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 4rem  0;
+}
+
+.Lenguajes ul{
+   padding: 1rem ; 
+}
+
+
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 4rem  0;
+}
+
+.skills-section ul{
+   padding: 1rem ; 
+}
+
+
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    color: green;
+    border-radius:12px ;       /*borde redondito*/
+}
+
+.skill-title{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1rem;
+}
+
+.referencias-section ul li{
+   color: #f7f7f7; 
+   padding-top: 3rem;   
+   font-size: medium;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+
+}
+
+/*SECTOR DERECHO DE LA PANTALLA*/
+
+
+.timeline{
+    display: grid;
+    grid-template-columns: repeat (2,1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.2;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+.right-main-content{
+    padding: 2rem 3rem;
+    
+}
+
+.right-title{                        
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: lightcoral ;
+   padding-bottom: 1.2rem;
+   position: relative;
+}  
+
+.sect{
+    padding-bottom: 2rem;
+}
+.para {
+    line-height: 1.2rem;                          /*me da el espacion entre renglones*/
+    color: black;
+    font-size: 16px  0;
+        
+}
+
+.right-title-3{                        
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: lightcoral ;
+    padding-bottom: 1.2rem;
+    position: relative;
+ }  
+
+.right-title-4{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: lightcoral ;
+    padding-bottom: 1.2rem;
+    position: relative; 
+}
+    
+
+
